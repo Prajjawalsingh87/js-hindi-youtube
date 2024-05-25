@@ -27,7 +27,7 @@ const obj2={
 
 //const obj3=Object.assign({},obj1,obj2)// if you didnt put  {} first then obj1 act as a target object and all the value from obj2 go in obj1
 const obj3={...obj1,...obj2};
-console.log(obj3)
+// console.log(obj3)
 const users=[
     {
         id:1,
@@ -42,9 +42,26 @@ const users=[
         email:"h@gmail.com"
     },
 ]
-users[0].email
-console.log(tinder_user)
-console.log(Object.keys(tinder_user))
+// users[0].email
+// console.log(tinder_user)
+// console.log(Object.keys(tinder_user))
+// // destructuring in objects
+const course={
+    course_name:"js in hindi",
+    price:"999",
+    courseInstructor:"prajjawal"
+}
+//course.courseInstructor
+const{courseInstructor:instructor}=course
+console.log(instructor);
+// methods
+// const navbar=()=>{
+
+// }
+// API
+// json {
+//
+//}
 
 
 
